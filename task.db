@@ -1,0 +1,4 @@
+db.products.insert([{ "_id" : "username" : "Naitik Vora", "amount" : "4000", "date" : "20/8/20" } ,
+{  "_id" : "username" : "Raju Patel", "amount" : "5000", "date" : "21/8/20" } ,
+{  "_id" : "username" : "Shyam Shah, "amount" : "6000", "date" : "22/8/20" } ,
+{  "_id" : "username" : "Ram Patel", "amount" : "7000", "date" : "23/8/20" } ,

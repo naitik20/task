@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  .container
+      .row
+        .logo
+          h3
+           = title
+      .row
+        .span12
+          .mini-layout
+        
+          
+
+            table.table.table-bordered
+              thead
+                tr
+                  th username
+                  th amount
+                  th date
+                  
+                if products.length
+                each item in products
+                 tr
+                   td #{item['_username']}
+                   td #{item['amount']}
+                   td #{item['date']}
+                   
